@@ -1,0 +1,40 @@
+.Lista{
+	background-color:#808000
+	border: 2px solid #808000;
+	overflow: hidden; /*utilizo esta propiedad para evitar que mi contenedor colapse al utilizar float*/
+}
+
+li{
+	float: left; /*acá dejo mi lista en forma horizontal*/
+	height: 30px;
+	margin: 30px;
+}
+
+.contenedor{
+	background:#FFE4E1;
+	overflow: hidden;
+}
+
+h1{
+	text-align: center;/*dejo centrado mi título*/
+}
+
+p{
+	font-size: 20px;/*con font-size le cambio tamaño a mi tipografía*/
+}
+
+.img_1{
+	 float: left;/* dejo mi imagen flotando a la derecha*/
+   margin: 0em 2em;
+	 border: 2px	solid white;
+
+}
+
+.img_2{
+	  float: right;/* dejo mi imagen flotando a la izquerda para dejar mi texto en el medio*/
+    margin: 0em 2em;
+    border: 2px solid white;
+
+span{
+	text-align: center;
+}
